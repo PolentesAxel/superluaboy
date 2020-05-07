@@ -10,7 +10,7 @@ function love.conf(t)
 	t.modules.sound = true
 	t.modules.thread = true
 	t.modules.physics = true
-	t.console = true
+	t.console = false
 	t.title = "Tech Demo"
 	t.author = "Axel 'Fauwsk' Polentes"
 	t.screen.fullscreen = false

@@ -18,7 +18,7 @@ function love.load()
 
 	WALK = 300
 	RUN = 500
-
+	alpha = 255
 	JUMPBOOST = 150
 	WALLJUMP = 600
 	WALLJUMP_DECREMENT = 40
@@ -257,6 +257,13 @@ function love.draw()
 	camera:unset()
   print(index)
   givepoint()
+  love.graphics.setNewFont(35)
+  love.graphics.setColor(255,0,0,255)
+  love.graphics.printf(points, 100, 100, 150)
+  level = "Niveau"
+  print(points)
+  love.graphics.printf(level, 500, 100, 150)
+  love.graphics.printf(index, 650, 100, 150)
   print(points)
 end
 
@@ -359,7 +366,8 @@ function love.update(dt)
 	if dt > 0.05 then
 		dt = 0.05
 	end
-
+	alpha = alpha - (dt * (255 / 3)) -- so it takes 3 seconds to remove all the alpha
+	if alpha < 0 then alpha = 0 end -- to ensure that a 0 is the lowest value we get
 	if( joystickRdy ) then
 		joystickControls()
 	else
