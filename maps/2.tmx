@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="80" height="40" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#55aaff" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="border" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="border.bmp" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="platform" tilewidth="32" tileheight="32" tilecount="16" columns="8">
+  <image source="platform.bmp" width="256" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="80" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmosKgkAQRbXSLMvq/382A8Vh0HXXu7qP7oEL4dLM7EkMy7IoipKBEpo29AAbOcrfmh/6M0N/GDn5a0Xozx05q40/H3vLyZ/Ehz+bvafgb8sM9DdhM8NDhf4mTDOMa7n62/savbQWiz+U3P3tDf1h0B8G/WHQHwb9YYT6fqc/rH5q/pZ6hfoMY/en/2eI4VyXpODvqF5biN2fr157zZja/S/9ueHr+vev/n7I+XLz166s29Rwwbc/dC4f/mygP6y/r3OU/vBaW6A/DPrDoL99SMWfDfSHQX8Yufo7ith+m7KB/jBGf6c+55lc+lQqdZ+rQxqRdibN0Ef2rYY13VvOUKs6tUhjeK+pns6ckzE34e++sLe56GeQTHkaslS/U687dUzm5Zi3x3wGd19qpw32
+  </data>
+ </layer>
+</map>

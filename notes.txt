@@ -1,0 +1,24 @@
+NES controller:
+
+button key  |  controller button
+------------+-------------------
+    2       |          A
+	3       |          B
+	9       |        Select
+	10      |        Start
+	
+	
+		  axis 1
+
+direction   |  controller button
+------------+-------------------
+    -1      |        Left
+	 1      |        Right
+	 
+	 
+		  axis 2
+
+direction   |  controller button
+------------+-------------------
+    -1      |         Up
+	 1      |        Down
